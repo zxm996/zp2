@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>首页</title>
+        <!-- </script -->
+        <script type="text/javascript" src="bootstrap/js/jquery-3.1.1.min.js" ></script>
+        <script type="text/javascript" src="bootstrap/js/main.js" ></script>
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+        <!-- <script type="text/javascript" src="js/scp1.js"></script> -->
+        <!-- <script type="text/javascript" src="js/scp2.js"></script> -->
+        <script src="bootstrap/js/swiper.js"></script>
+        <script src="js/wow.min.js"></script>
+        <!-- </script -->
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+        <link rel="stylesheet" href="bootstrap/css/swiper.css">
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/animate.css">
+        <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="css/style2.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script>
+    if (!(/msie [6|7|8|9]/i.test(navigator.userAgent))){
+        new WOW().init();
+    };
+    </script>
+</head>
+<body>
+	<!-- 置顶导航条 -->
+		<nav id="nav" class="custom-menu navbar navbar-inverse navbar-fixed-top">
+			<div class="container top-nav">
+			    <!-- 左边logo -->
+				<div class="col-md-6 col-xs-6">
+					<a href="index.html"><img src="images/logo/mylogo.png" class="img-responsive  left-logo"></a>
+				</div>
+	            <div class="col-lg-6 col-xs-6 col-sm-6 col-md-6 text-right">
+	                <div class="main" id="main">
+	                    <a onClick="openNav()">
+	                    <!-- 右边按钮图片 -->
+						<img class="zoom-act" src="images/logo/logobtn.png"">
+						</a>
+	                </div> 
+	            </div>
+			</div>
+		</nav>	<!-- 置顶导航条结束 -->	
+		<!-- sidenav侧边栏导航开始-->
+		<div id="mySidenav" class="sidenav text-center">
+            <a href="javascript:void(0)" class="closebtn" onClick="closeNav()">&times;</a><br>
+            <a href="#home">首页</a><hr>
+            <a href="#Website construction">网站建设</a><hr>
+            <a href="#step">流程</a><hr>
+            <a href="#about">关于</a><hr>			         
+			<a href="#contact us">联系我们</a>              
+        </div><!-- sidenav侧边栏导航结束-->
+      	<!-- 轮播图开始 -->
+        <div class="swiper-container hidden-xs-block swiper-container1" id="home">
+                <div class="swiper-wrapper">
+                   <div class="swiper-slide bg-image1" >
+                        <p class="wow bounceInDown">
+                            <span>每一个成功者<br>都有一个开始。勇于开始，才能找到成功的路。</span>
+                        </p>                     
+                   </div>
+                   <div class="swiper-slide bg-image2" >
+                        <p>
+                           <span>只有你学会把自己已有的成绩都归零，<br>才能腾出空间去接纳更多的新东西，如此才能使自己不断的超越自己。</span>
+                        </p>                       
+                   </div>
+                   <div class="swiper-slide bg-image3" >
+                        <p>
+                            <span>一个懒惰的少年将来就是一褴褛的老人。</span>
+                        </p>
+                   </div>
+                   <div class="swiper-slide bg-image4" >
+                        <p>
+                            <span>运气就是机会碰巧撞到了你的努力。</span>
+                        </p>
+                   </div>
+                   <div class="swiper-slide bg-image5" >
+                        <p>
+                        <span>抱最大的希望，为最大的努力，做最坏的打算。</span>
+                   </div>
+                </div>
+               <div class="swiper-pagination swiper-p1"></div>
+            <!-- 两边按钮箭头 -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+        </div><!-- 轮播图结束 -->    
+    <!-- 公司任务开始 -->
+    <div class="container-fuild serve-all" id="Website construction"><!-- serve-all头 -->
+        <div class="container serve"><!-- serve头 -->            
+            <div class="row headline"><!-- row头 -->
+               <h2>主要服务</h2>
+                <!-- <hr> -->
+                <div class="col-md-4 col-sm-4 col-xs-4 serve-nav">
+                    <div class="nav nav-tabs">
+                        <div class="wsp-web"><a data-toggle="tab" href="#home1"><img src="images/flow/11.png"><span>响应式网站</span></a><br></div>
+                        <div class="phone-web"><a data-toggle="tab" href="#menu1"><img src="images/flow/22.png"><span>手机网站</span></a><br></div>
+                        <div class="mini-web"><a data-toggle="tab" href="#menu2"><img src="images/flow/33.png"><span>小程序</span></a><br></div>
+                        <div class="app-web"><a data-toggle="tab" href="#menu3"><img src="images/flow/44.png"><span>app制作</span></a><br></div>
+                        <div class="weixin-web"><a data-toggle="tab" href="#menu4"><img src="images/flow/55.png"><span>微信网站</span></a></div>
+                    </div>
+                </div>
+                <div class="col-md-8 col-sm-8 col-xs-8 serve-text"><!-- serve-text头 -->
+                    <div class="tab-content"><!-- tab-content头 -->
+                        <div id="home1" class="tab-pane fade in active">
+                            <div class="wsp-text">
+                                <p><img src="images/serve/wsp.png" class="img-responsive"></p>
+                                <p>让您的网站走在互联网的前端！以最佳的用户体验，<br>
+                                    让客户随时随地找到您！所谓响应式网页建设，是指可以自动识别<br>
+                                    屏幕宽度、并做出相应调整的网页设计。简单来说就是同一张网页自动适应不同大小<br>
+                                    的屏幕，根据屏幕宽度，自动调整布局现在使用移动设备人越来越多，移动版的Website随之也越来越重要；但是 <br>                                
+                                   移动端设备的大小不一，屏幕分辨率各不相同，我们不可能为 BlackBerry iPhone，iPad等等每个都做单独的页面设计。
+                                </p>   
+                            </div>   
+                        </div>
+                        <div id="menu1" class="tab-pane fade">
+                            <div class="phone-text">
+                                <p><img src="images/serve/phone.png" class="img-responsive"></p>
+                                <p>适合 iPhone,iPad,Android,Windows Phone 在各种网络环境下，都能流畅访问的网站</p>                            
+                            </div>
+                        </div>
+                        <div id="menu2" class="tab-pane fade">
+                            <div class="mini-text">
+                                <p><img src="images/serve/mini-app.jpg" class="img-responsive"></p>
+                                <p>小程序是一种不需要下载安装即可使用的应用，它实现了应用“触手可及”的梦想，用户扫一扫或者搜一下即可打开应用。 
+                                    小程序是4年内最大的移动互联网商机，率先上线小程序，抢占流量红利，实现营收激增！                           
+                                </p>                            
+                            </div>
+                        </div>
+                        <div id="menu3" class="tab-pane fade">
+                            <div class="app-text">
+                                <p><img src="images/serve/app.jpg" class="img-responsive"></p>
+                                <p>app就是应用软件，现在主要指的都是ios、mac、android等系统下的应用软件。 可以在移动设备上为使用者提供互联网入口，满足人们咨询、购物、社交、娱乐、搜索等需求的一切应用程序。                          
+                                </p>                            
+                            </div>
+                        </div>
+                        <div id="menu4" class="tab-pane fade">
+                            <div class="weixin-text">
+                                <p><img src="images/serve/weixin.jpg" class="img-responsive"></p>
+                                <p>微信网站是企业移动互联网应用与商业服务平台。
+                                    微信网站可以快速搭建手机网站并生成APP，帮助企业建设企业移动门户和移动基础应用平台，可以和企业微信
+                                    公众号整合提供互动应用服务。企业可以在微站的基础上扩展或加载诸如微商城、微调查、微团购、客户管理等一
+                                    系列应用，并可以集成微信微博、短信、在线客服、在线商城、企业CRM系统等多平台接口，企业通过微站平
+                                    台可以管理各类移动应用，从而形成企业移动互联网的统一数据入口。
+                                    微信网站是承载企业内部、企业之间、企业与用户数据流通的"信息航母"。                        
+                                </p>                            
+                            </div>
+                        </div>
+                    </div><!-- tab-content尾 -->
+                </div><!-- serve-text尾 -->
+            </div><!-- row尾 -->
+        </div><!-- serve尾 -->
+    </div><!-- serve-all尾 -->
+    <!-- 公司任务结束 -->
+
+    <!-- 订购流程开始-->
+<div class="row" id="step">
+    <section id="cd-timeline" class="cd-container">
+        <div class="cd-timeline-block">
+            <div class="cd-timeline-img cd-picture">
+                <img src="images/flow/01.png" alt="Picture">
+            </div>
+            <div class="cd-timeline-content">
+                <p><h1>1</h1>深入需求沟通</p>
+                <p style="font-size: 15px;">只有深入的了解行业背景以及用户需求，才能规划春最合适您的网站/APP</p>               
+            </div> 
+        </div> 
+        <div class="cd-timeline-block">
+            <div class="cd-timeline-img cd-movie">
+                <img src="images/flow/02.png" alt="Movie">
+            </div> 
+            <div class="cd-timeline-content">                
+                <p><h1>2</h1>UE原型策划</p>
+                <p style="font-size: 15px;">策划是创作一个好作品的开始，我们只用互联网思维去规划用户体验并形成项目原型</p>       
+            </div> 
+        </div> 
+        <div class="cd-timeline-block">
+            <div class="cd-timeline-img cd-picture">
+                <img src="images/flow/03.png" alt="Picture">
+            </div> 
+            <div class="cd-timeline-content">                
+                <p><h1>3</h1>UI创意设计</p>
+                <p style="font-size: 15px;">头脑风暴，不是一个人的事，RISENB果断淘汰不精美的作品！</p>
+            </div> 
+        </div> 
+        <div class="cd-timeline-block">
+            <div class="cd-timeline-img cd-location">
+                <img src="images/flow/04.png" alt="Location">
+            </div> 
+            <div class="cd-timeline-content">               
+                <p><h1>4</h1>UI动态交互</p> 
+                <p style="font-size: 15px;">HTML5+CSS3, 轻松兼容全网客户端！</p>       
+            </div> 
+        </div> 
+        <div class="cd-timeline-block">
+            <div class="cd-timeline-img cd-location">
+                <img src="images/flow/05.png" alt="Location">
+            </div> 
+            <div class="cd-timeline-content">               
+                <p><h1>5</h1>全网整合开发</p>
+                <p style="font-size: 15px;">全网技术开发，轻松实现跨平台数据同步。</p>
+            </div> 
+        </div> 
+        <div class="cd-timeline-block">
+            <div class="cd-timeline-img cd-movie">
+                <img src="images/flow/06.png" alt="Movie">
+            </div> 
+            <div class="cd-timeline-content">                
+                <p><h1>6</h1>全面专业测试</p>
+                <p style="font-size: 15px;">并发，性能，安全，压力，负载均衡......确保提交给您最稳定的系统。</p> 
+            </div>
+        </div>
+        <div class="cd-timeline-block">
+            <div class="cd-timeline-img cd-picture">
+                <img src="images/flow/07.png" alt="Picture">
+            </div>
+            <div class="cd-timeline-content">              
+                <p><h1>7</h1>完美交接</p> 
+                <p style="font-size: 15px;">精益求精的每一个工作环节，都是完美交接的基础</p>            
+            </div> 
+        </div> 
+    </section>
+</div>
+    <!-- 订购流程结束 -->
+
+    <!-- 公司简介 -->
+    <div class="container-fuild" id="about">
+        <div class="container company">
+            <div class="col-md-6 company-left">
+                    <h3>「鳗鱼妹儿」网络科技有限公司</h3><br>
+                    <p>主要以网站建设，移动互联，网站开发，高端网站定制为主，<br>
+                    致力于为企业提供优质全面的网站建设解决方案。<br>
+                    专业的技术，丰富的成功经验，卓越的创作思维，为您创作出一流的品牌互联网形象！<br>
+                    我们的价值观：诚信、专注、尽责、创新<br>
+                    我们的愿景：做一个最受客户信任的互联网企业！</p>
+            </div>
+            <div class="col-md-6 company-right">
+                    <img src="images/bg-image/gsbj2.png">
+            </div>
+        </div>
+    </div>
+    <!-- 公司简介结束 -->
+    <!-- 联系我们开始 -->
+    <div class="container-fuild contact-all" id="contact us">
+        <div class="row">
+        <!-- 天气-->
+            <div class="col-md-4  col-sm-4 contact2-left">             
+                    <iframe id="weather" name="weather_inc" src="http://i.tianqi.com/index.php?c=code&id=48" width="280" style="color:#fff;" height="45" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>                          
+                <img src="images/contact/2.png" alt="">
+                   <p><i class="fa fa-map-marker fa-3x icon"></i>地址<br>广州从化</p> <br>
+                   <p><i class="fa fa-envelope-o fa-2x icon"></i>邮箱<br>99696597@qq.com</p><br>
+                   <p><i class="fa fa-phone fa-3x icon"></i>联系方式<br>321566321</p>
+            </div><!-- 天气结束 -->
+            <div class="col-md-8 col-sm-8 contact2-right">
+                <form class="section-right">
+                    <label for="">用户名：</label>
+                    <input type="text" placeholder="请输入您的名字" class="form-control"  required="required">
+                    <label for="">邮箱：</label>
+                    <input type="email" placeholder="请输入您的邮箱" class="form-control"  required="required">
+                    <label for="">联系方式：</label>
+                    <input type="tel" placeholder="请输入您的电话" class="form-control" required="required">
+                    <label for="">留言：</label>
+                    <textarea placeholder="请输入您的留言信息" class="form-control"></textarea>
+                    <table class="section-table">
+                    <tr>
+                        <td><input type="checkbox" checked="false"></td>
+                        <td><a href="#">我已经详细阅读并同意你们的服务协议</a></td>
+                    </tr>
+                    </table>
+                    <input type="submit" class="btn btn-md" value="提 交">
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <footer id="footer" class="border-top">
+        <div class="row footer-all">
+             <h6>Copyright 梁燕萍 </h6>
+        </div>
+    </footer>
+     <!-- 联系我们结束 -->
+<!--     <div class="beijin">
+    </div> -->
+<div class="top"><a href="#home">顶部</a></div>
+
+</body>
+<script>
+// 轮播
+    var swiper = new Swiper('.swiper-container', {
+    	// 轮播页面个数
+      // slidesPerView: 5,
+      // 可以连起来轮播
+      // loop: true,
+    	// 自动切换
+      //  autoplay: {
+      //   delay: 2500,
+      //   disableOnInteraction: false,
+      // },
+    	// 小圆点
+    	pagination: {
+        el: '.swiper-p',
+        clickable: true,
+      },
+      // 左右控件
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+    //订过方式
+    $(function(){
+    var $timeline_block = $('.cd-timeline-block');
+    
+    $timeline_block.each(function(){
+        if($(this).offset().top > $(window).scrollTop()+$(window).height()*0.75) {
+            $(this).find('.cd-timeline-img, .cd-timeline-content').addClass('is-hidden');
+        }
+    });
+    $(window).on('scroll', function(){
+        $timeline_block.each(function(){
+            if( $(this).offset().top <= $(window).scrollTop()+$(window).height()*0.75 && $(this).find('.cd-timeline-img').hasClass('is-hidden') ) {
+                $(this).find('.cd-timeline-img, .cd-timeline-content').removeClass('is-hidden').addClass('bounce-in');
+            }
+        });
+    });
+});
+  </script>
+
+
+</html>
